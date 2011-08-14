@@ -12,7 +12,7 @@ discs on me. I'd also been messing with the Lucid Lynx beta in a VM on my machin
  the Mini again and see how it went.
 ~
 This was a couple days before the release date, so I downloaded the release candidate
- and ran form there. I've used both the normal desktop and netbook remix in previous versions of Ubuntu, and for my workflow I prefer using the normal desktop. As there isn't a desktop .img available, I downloaded the desktop ISO and used the USB IMage Writer in my VM to copy the ISO to a flash drive. Installation had a minor hitch in that the first install didn't seem to take, in that after the installer was finished and the system rebooted, nothing showed up. I booted to the USB stick again, reinstalled, and everything worked after that.
+ and ran from there. I've used both the normal desktop and netbook remix in previous versions of Ubuntu, and for my workflow I prefer using the normal desktop. As there isn't a desktop .img available, I downloaded the desktop ISO and used the USB IMage Writer in my VM to copy the ISO to a flash drive. Installation had a minor hitch in that the first install didn't seem to take, in that after the installer was finished and the system rebooted, nothing showed up. I booted to the USB stick again, reinstalled, and everything worked after that.
 
 Hardware support is very much improved in this version (I've previously used 8.04 and
  9.04). I didn't have to make any configuration changes to use sound hardware, Bluetooth 
