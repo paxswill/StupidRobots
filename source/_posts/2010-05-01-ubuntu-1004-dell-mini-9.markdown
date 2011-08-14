@@ -18,7 +18,7 @@ Hardware support is very much improved in this version (I've previously used 8.0
  9.04). I didn't have to make any configuration changes to use sound hardware, Bluetooth 
 worked right away, 3D acceleration was a given as I have an Intel GPU, and after I 
 installed the Broadcom STA driver through the restricted driver installer, Wifi worked as well. Sleep works as well as it did under 9.10, as having an SD card mounted when you try sleeping causes the suspend process to hang. THe fix is detailed in [this](http://www.mydellmini.com/forum/ubuntu-netbook-remix/14722-suspend-hibernate-mini-9-broken-3.html#post143677) MyDellMini forum post. Reproduced here, the fix is to add a hook to the sleep process that unmounts all memory cards. Put the following script in the `/etc/pm/sleep.d/` directory.  
-
+``` bash
     #!/bin/bash
     
     case $1 in
@@ -31,7 +31,7 @@ installed the Broadcom STA driver through the restricted driver installer, Wifi 
         ;;
     esac
     exit 0	
-
+```
 Then make it executable.
 
 Addendum: Turned out it wasn't a bout of file system madness, it was the SSD dying.
