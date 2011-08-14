@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
+url: http://ocotpress.paxswill.com
+title: Stupid Robots
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Will Ross
 simple_search: http://google.com/search
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
@@ -55,7 +55,7 @@ twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google Plus
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Pinboard
@@ -70,4 +70,4 @@ delicious_count: 3
 disqus_short_name:
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-1727407-4
