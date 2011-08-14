@@ -1,9 +1,9 @@
---
+---
 layout: post
 title: "Thoughts on My Education (So Far)"
-date: 2008-12-10
+date: 2008-12-10 00:00
 slug: thoughts-on-cs-education
---
+---
 
 I was reading <a href='http://itmanagement.earthweb.com/features/print.php/12297_3789981_1'>this</a> article
  a bit ago. In it Bjarne Stroustrup talks about the inadequacies of American CS education. One point he brings
