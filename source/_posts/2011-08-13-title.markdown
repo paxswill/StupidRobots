@@ -8,9 +8,14 @@ categories:
 
 Test Post
 
-``` objective-c
-    NSString *string1 = @"1";
-    NSString *string1 = @"2";
-    NSString *string3 = [string1 stringByAppendingString:string2];
-    // Comment
-```
+{% include_code Include code test.m %}
+
+{% codeblock Inline code test.c %}
+#include <stdio.h>
+
+int main(int argc, char ** argv){
+    printf("Hello World!");
+}
+{% endcodeblock %}
+
+{% img http://placekitten.com/320/320 A Kittie! %}
