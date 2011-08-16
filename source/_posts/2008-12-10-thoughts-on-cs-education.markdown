@@ -2,13 +2,12 @@
 layout: post
 title: "Thoughts on My Education (So Far)"
 date: 2008-12-10 00:00
-slug: thoughts-on-cs-education
 ---
 
 I was reading <a href='http://itmanagement.earthweb.com/features/print.php/12297_3789981_1'>this</a> article
  a bit ago. In it Bjarne Stroustrup talks about the inadequacies of American CS education. One point he brings
  up resonated with me. 
-~
+<!--more-->
 I took AP Computer Science A and AB (in Java) in high school, and something we learned 
 early on was how to make our code look nice. Ideally, we didn’t put comments on the same line as code, and in 
 AB, we had to document each method with preconditions, post conditions, and a general description of the 
