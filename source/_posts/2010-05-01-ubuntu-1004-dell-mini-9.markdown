@@ -3,6 +3,7 @@ layout: post
 title: Ubuntu 10.04 on a Dell Mini 9
 author: Will Ross
 date: 2010-05-01
+comments: true
 ---
 
 The Mac OS X install on my Mini 9 was recently borked (friend was borrowing it, and

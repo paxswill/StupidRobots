@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ocotpress.paxswill.com
+url: http://paxswill.com
 title: Stupid Robots
 subtitle: A blogging framework for hackers.
 author: Will Ross
@@ -67,7 +67,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: paxswill
 
 # Google Analytics
 google_analytics_tracking_id: UA-1727407-4
