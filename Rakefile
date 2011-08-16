@@ -172,6 +172,7 @@ task :rsync do
   puts "## Deploying website via Rsync"
   ok_failed system("rsync -avz --delete #{public_dir}/ #{ssh_user}:#{document_root}")
 end
+task :rsync => :generate
 
 desc "deploy public directory to github pages"
 task :push do
