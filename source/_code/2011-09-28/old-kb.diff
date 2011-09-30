@@ -1,0 +1,11 @@
+--- linux-2.6.25/net/bluetooth/hidp/core.c	2008-04-17 03:49:44.000000000 +0100
++++ /usr/local/src/linux-2.6.25/net/bluetooth/hidp/core.c	2008-05-25 13:26:32.000000000 +0100
+@@ -678,6 +678,8 @@
+ } hidp_blacklist[] = {
+ 	/* Apple wireless Mighty Mouse */
+ 	{ 0x05ac, 0x030c, HID_QUIRK_MIGHTYMOUSE | HID_QUIRK_INVERT_HWHEEL },
++        /* Apple Bluetooth alu ISO keyboard */
++        { 0x05ac, 0x022d, HID_QUIRK_APPLE_HAS_FN | HID_QUIRK_APPLE_ISO_KEYBOARD },
+ 
+ 	{ }	/* Terminating entry */
+ };
