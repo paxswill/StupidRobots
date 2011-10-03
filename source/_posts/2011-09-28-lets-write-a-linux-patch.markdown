@@ -4,6 +4,7 @@ title: "Let's Write a Linux Patch"
 date: 2011-09-30
 comments: true
 categories: code linux
+published: false
 ---
 
 Due to an unfortunate accident involving a glass of water and my main
