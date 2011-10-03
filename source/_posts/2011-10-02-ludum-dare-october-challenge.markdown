@@ -9,8 +9,8 @@ categories: [Ludum Dare, Android]
 So I've decided to do the Ludum Dare
 [October Challange](http://www.ludumdare.com/compo/2011/09/28/announcing-october-challenge-2011/).
 It seems like a good kick in the pants to actually write a mobile app of
-my own.
-
+my own, so here goes.
+<!--more-->
 As far as ideas, I recently rediscovered Warcraft II, and liked how
 simple the graphics and gameplay were while allowing a lot of depth. To
 that end, I'm going to try to create a simple
