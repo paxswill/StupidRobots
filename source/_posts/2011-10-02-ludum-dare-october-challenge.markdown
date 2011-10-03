@@ -32,5 +32,20 @@ the question. Even light 'kills' is off putting.
 use of complicated terrain. Terrain is an easy concept to grasp, and
 allows more serious players room to excel.
 
+To combine all of these together, I'm going to create a game focusing on
+a snow ball fight. By having different kids make different snowballs at
+different speeds, it requires advanced players to plan which characters
+make which snowballs. Like standard RTS/RTT games, there's going to be
+the fog of war, but hopefully I'll have it be directionally based.
+Ideally the maps will be procedurally generated, probably with a
+tile-based mechanism to make it simpler for me. The game will be over
+when a team has no more characters. It will be top-down, to try to
+simplify character design.
+
 I'm now working on finding a nice set of tools to build on top of, as
-I'm not too keen on building a whole game engine for this.
+I'm not too keen on building a whole game engine for this. Right now I'm
+thinking of using [libGDX](http://libgdx.badlogicgames.com/), but I'm
+also thinking of possibly using
+[AndEngine](http://www.andengine.org/blog/). The main benefit I'm seeing
+with going with libGDX is that I can test more easilt on my netbook and
+then move onto Android when I have the basics of the gameplay down.
