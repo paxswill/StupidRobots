@@ -1,0 +1,17 @@
+--- kernel/ruleset/targets/common.mk-orig	2011-08-17 18:24:16.048922011 +0300
++++ kernel/ruleset/targets/common.mk	2011-08-17 20:08:26.623916939 +0300
+@@ -323,8 +323,13 @@ ifeq ($(DEB_HOST_ARCH_OS), linux)
+     endif
+   endif
+   ifneq ($(strip $(shell grep -E ^[^\#]*CONFIG_LGUEST $(CONFIG_FILE))),)
++	if [ -e Documentation/lguest ]; then \
+ 	$(MAKE) $(do_parallel) $(EXTRAV_ARG) $(FLAV_ARG) ARCH=$(KERNEL_ARCH) \
+-			    $(CROSS_ARG) -C Documentation/lguest
++			    $(CROSS_ARG) -C Documentation/lguest; \
++	elif [ -e Documentation/virtual/lguest ]; then \
++	$(MAKE) $(do_parallel) $(EXTRAV_ARG) $(FLAV_ARG) ARCH=$(KERNEL_ARCH) \
++			    $(CROSS_ARG) -C Documentation/virtual/lguest; \
++	fi
+   endif
+ else
+   ifeq ($(DEB_HOST_ARCH_OS), kfreebsd)
