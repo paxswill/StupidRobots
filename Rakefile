@@ -4,10 +4,11 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "paxswill_octopress@paxswill.com"
-ssh_port       = "22"
-document_root  = "~/octopress.paxswill.com/"
+ssh_user       = "paxswill_com@athena.paxswill.com"
+ssh_port       = "2222"
+document_root  = "/var/www/paxswill.com/"
 deploy_default = "rsync"
+rsync_delete   = true
 
 # This will be configured for you when you run config_deploy
 deploy_branch  = "gh-pages"
