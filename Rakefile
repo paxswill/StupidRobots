@@ -239,7 +239,6 @@ task :rsync do
   puts "## Deploying website via Rsync"
   ok_failed system("rsync -avze 'ssh -p #{ssh_port}' #{exclude} #{"--delete" unless rsync_delete == false} #{public_dir}/ #{ssh_user}:#{document_root}")
 end
-task :rsync => :generate
 
 desc "deploy public directory to github pages"
 multitask :push do
